@@ -1,0 +1,181 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('assets/images/bg.jpg');
+    background-size: 1024px;
+    background-repeat: no-repeat;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+nav{
+    padding: 20px;
+}
+
+.nav-logo{
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.nav-link-container{
+    display: inline-flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    border-bottom: 2px solid transparent;
+    border-image: linear-gradient(0.45turn, rgb(0, 0, 0), rgb(255, 255, 255), rgba(0, 0, 0, 0));
+    border-image-slice: 1;
+}
+
+.nav-link-item{
+    font-size: 1rem;
+    color: #FFF;
+    margin-right: 20px;
+    margin-top: auto;
+}
+
+.nav-link-item:last-child{
+    margin-right: 0px;
+}
+
+.upper{
+    padding: 20px;
+}
+
+.service-container{
+    border: 1px solid rgba(189, 195, 199, 0.5);
+    border-radius: 30px;
+    width: fit-content;
+    padding: 15px;
+    padding-left: 60px;
+    margin-left: -60px;
+    margin-top: 30px;
+}
+
+.service-item, .service-item-icon{
+    display: inline-block;
+}
+
+.service-item:last-child{
+    margin-left: 20px;
+}
+
+.service-item-icon{
+    vertical-align: top;
+}
+
+.service-item-text{
+    color: #FFF;
+    font-size: 0.7rem;
+    text-align: center;
+}
+
+.slogan{
+    font-size: 1.5rem;
+    font-weight: bolder;
+    color: #FFF;
+}
+
+.ads{
+    font-size: 0.7rem;
+    color: darkblue;
+    font-weight: 500;
+}
+
+.slogan > p, .ads > p{
+    padding: 0;
+    margin: 0;
+}
+
+.company-name-on-bg{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #FFF;
+    position: absolute;
+    right: 10px;
+    top: 600px;
+}
+
+.middle{
+    margin: 0;
+    margin-top: 253px;
+}
+
+.card-container{
+    background-color: #444;
+    padding: 20px;
+}
+
+.card-item{
+    display: inline-block;
+    text-align: center;
+    width: 245px;
+    border-left: 1px solid cadetblue;
+    padding: 20px;
+}
+
+.card-item:last-child{
+    border-right: 1px solid cadetblue;
+}
+
+.card-item-icon > img{
+    height: 100px;
+}
+
+.card-item-title, .card-item-text{
+    color: #FFF;
+}
+
+.card-item-title{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+.card-item-text{
+    font-size: 0.6rem;
+    margin-bottom: 20px;
+}
+
+.btn-see-more{
+    border-radius: 50px;
+    width: fit-content;
+    background-color: cadetblue;
+    color: #FFF;
+    font-size: 0.5rem;
+    border: 1px solid #FFF;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+
+.news-container{
+    background-color: beige;
+    padding: 20px;
+}
+
+.news-item-text{
+    padding: 20px;
+    font-size: 0.8rem;
+}
+
+.news-item-picture{
+    background-color: #444;
+    padding-left: 50px;
+}
+
+.pull-right{
+    text-align: right;
+    width: 100%;
+    background-color: beige;
+    padding-top: 20px;
+}
+
+.pull-right > a{
+    text-decoration: none;
+    color: black;
+}
