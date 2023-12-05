@@ -2,6 +2,7 @@ body{
     padding: 0px;
     margin: 0px auto;
     background-color: #141f29;
+    overflow: scroll;
 }
 
 .container{
@@ -9,6 +10,8 @@ body{
     background-image: url('assets/images/bg.jpg');
     background-size: 1440px;
     background-repeat: no-repeat;
+    width: 1440px;
+    min-width: 1440px;
 }
 
 nav{
@@ -85,6 +88,7 @@ nav{
     font-size: 0.7rem;
     color: #2c5d77;
     font-weight: 500;
+    margin-top: 10px;
 }
 
 .slogan > p, .ads > p{
@@ -140,10 +144,11 @@ nav{
 }
 
 .card-item-text{
-    font-size: 0.6rem;
+    text-align: left;
+    font-size: 0.8rem;
     margin-bottom: 20px;
-    line-height: 20px;
-    letter-spacing: 2.5px;
+    line-height: 30px;
+    letter-spacing: 3px;
 }
 
 .btn-see-more{
@@ -151,7 +156,7 @@ nav{
     width: fit-content;
     background-color: cadetblue;
     color: #FFF;
-    font-size: 0.5rem;
+    font-size: 0.8rem;
     border: 1px solid #FFF;
     padding: 5px 10px;
     text-decoration: none;
@@ -159,7 +164,7 @@ nav{
 }
 
 .news-container{
-    background-color: beige;
+    background-color: #bfcfcf;
     padding: 20px;
 }
 
@@ -176,11 +181,15 @@ nav{
 .pull-right{
     text-align: right;
     width: 100%;
-    background-color: beige;
+    background-color: transparent;
     padding-top: 20px;
 }
 
 .pull-right > a{
     text-decoration: none;
     color: black;
+}
+
+.news-header{
+    color: #c3a105;
 }
